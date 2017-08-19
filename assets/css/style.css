@@ -1,15 +1,67 @@
 * {
   box-sizing: border-box;
 }
+#container{
+  width: 960px;
+  background-color: #F8F8F8;
 
-/*header {
-  width: 100%;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 30px;
-  padding: 20px;
-}*/
+}
+
+#title {
+  width: 45%;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav {
+  width: 35%;
+  float: right;
+  word-spacing: 30px;
+  margin-top: 30px;
+}
+
+#content {
+/*  width: 60%; */
+  width: 650px;
+  display: inline-block;
+}
+
+#inset {
+  width: 650px;
+  position: relative;
+  left: 60px;
+}
+
+p.workaround {
+  font-size: larger;
+}
+
+#bio-image {
+  padding-right: 20px;
+}
+
+.workaround {
+  width: 75%;
+  float: left;
+}
+
+#contact {
+  width: 270px;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+
+img {
+  max-width: 33%;
+  max-height: 100%;
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
 
 .tealb {
   background-color: #4aaaa5;
@@ -21,44 +73,4 @@
 
 .white {
   color: white;
-}
-
-#title {
-  width: 20%;
-  float: left;
-  padding: 20px;
-  margin-left: 100px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 30px;
-}
-/*#yn {
-  font-size: 30px;
-}*/
-#links {
-  margin-left: 60px;
-  float: right;
-  line-height: 40px;
-  font-size: 18px;
-}
-section {
-  clear: both;
-  background-color: #F8F8F8;
-  position: relative;
-  height: auto;
-}
-
-#about {
-
-  display: inline;
-  width: 20%;
-  padding: 20px;
-  margin-left: 100px;
-  line-height: 40px;
-}
-
-#contact {
-  float: right;
-  width: 20%;
-  padding: 20%;
 }
