@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+}
+
+#container {
+  clear: both;
+  width: 960px;
+}
+
+#title {
+  width: 45%;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav {
+  width: 35%;
+  float: right;
+  word-spacing: 30px;
+  margin-top: 30px;
+}
+
+#content {
+  /* width: 60%; */
+  width: 650px;
+  display: inline-block;
+}
+
+#inset {
+  width: 650px;
+  position: relative;
+  left: 60px;
+}
+
+p.workaround {
+  font-size: larger;
+}
+
+#bio-image {
+  padding-right: 20px;
+}
+
+.workaround {
+  width: 75%;
+  float: left;
+}
+
+#contact {
+  width: 270px;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+
+img {
+  max-width: 33%;
+  max-height: 100%;
+  float: left;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  background-color: #666666;
+}
+
+.tealb {
+  background-color: #4aaaa5;
+}
+
+.tealf {
+  color: #4aaaa5;
+}
+
+hr.tealf {
+  color: #4aaaa5;
+  height: 5px;
+}
+
+.white {
+  color: white;
+}
